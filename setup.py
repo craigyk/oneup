@@ -3,6 +3,6 @@
 from distutils.core import setup
 
 setup( name='decorators',
-       version='1.0',
-       py_modules=['decorators'],
+       version='1.0.0',
+       packages=['decorators'],
 )
