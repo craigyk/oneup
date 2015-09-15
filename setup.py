@@ -2,7 +2,7 @@
 
 from distutils.core import setup
 
-setup( name='decorators',
+setup( name='oneup',
        version='1.0.1',
-       packages=['decorators'],
+       packages=['oneup'],
 )
