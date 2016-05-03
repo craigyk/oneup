@@ -12,5 +12,5 @@ class defer(object):
 
     def __get__(self, obj, cls):
         value = self.fget(obj)
-        setattr(obj, self.fget.func_name, value)
+        setattr(obj, self.fget.__name__, value)
         return value
